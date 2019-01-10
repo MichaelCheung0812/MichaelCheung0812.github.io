@@ -59,7 +59,7 @@ $(document).ready(function() {
     /////////////////////////////////////
     //      MODAL WINDOW FEATURES      //
     /////////////////////////////////////
-    $('.features-item').on('click', function() {
+  /*  $('.features-item').on('click', function() {
         var label = $('#myModalLabel');
         var img = $('#showcase-img');
         var price = $('#modal-price-tag');
@@ -81,7 +81,7 @@ $(document).ready(function() {
 
     $('#shop-modal-hide').on('click', function(){
         $('#shop-modal').modal('hide');
-    }); 
+    }); */
 
     /////////////////////////////////////
     //          GOOGLE MAPS            //
