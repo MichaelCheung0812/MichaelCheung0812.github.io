@@ -59,7 +59,7 @@ $(document).ready(function() {
     /////////////////////////////////////
     //      MODAL WINDOW FEATURES      //
     /////////////////////////////////////
-  /*  $('.features-item').on('click', function() {
+    $('.features-item').on('click', function() {
         var label = $('#myModalLabel');
         var img = $('#showcase-img');
         var price = $('#modal-price-tag');
@@ -67,21 +67,17 @@ $(document).ready(function() {
         var dataModel = $(this).find('img');
         var modelfeats = $('#model-feats').find('li');
 
-        label.text('Hero Name: ' + $(this).find('.item-name-caption').text());
+        label.text($(this).find('.item-name-caption').text());
         price.text($(this).find('.item-price-caption').text());
         img.attr('src', dataModel.attr('src'));
 
 
-        $(modelfeats[0]).text('Strength: ' + dataModel.data('strength')); //Strength
-        $(modelfeats[1]).text('Dexterity: ' + dataModel.data('dexterity')); //Dexterity
-        $(modelfeats[2]).text('Agility: ' + dataModel.data('agility')); //Agility
-        $(modelfeats[3]).text('Willpower: ' + dataModel.data('willpower')); //Willpower
-        $(modelfeats[4]).text('Intelligence: ' + dataModel.data('intelligence')); //Intelligence
+
     });
 
     $('#shop-modal-hide').on('click', function(){
         $('#shop-modal').modal('hide');
-    }); */
+    });
 
     /////////////////////////////////////
     //          GOOGLE MAPS            //
