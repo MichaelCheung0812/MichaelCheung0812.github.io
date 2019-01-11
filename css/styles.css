@@ -545,6 +545,11 @@ header {
     header {
       background-position: 25%; } }
 
+.video-background {
+  object-fit: fill;
+  height: 100%;
+  max-width: 100%;
+}
 .big-logo {
   height: auto;
   position: absolute;
@@ -578,6 +583,7 @@ header {
   @media (max-width: 480px) {
     .big-logo {
       width: 100%; } }
+
 
 .social-nav-header {
   left: 50%;
