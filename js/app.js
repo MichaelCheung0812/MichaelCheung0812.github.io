@@ -70,6 +70,9 @@ $(document).ready(function() {
         label.text($(this).find('.item-name-caption').text());
         price.text($(this).find('.item-price-caption').text());
         img.attr('src', dataModel.attr('src'));
+
+
+        $(modelfeats[0]).text(dataModel.data('body')); //Body
     });
 
     $('#shop-modal-hide').on('click', function(){
