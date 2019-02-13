@@ -114,8 +114,8 @@ input:focus, textarea:focus, button:focus {
 .section-description {
   margin: 1rem auto 0 auto;
   width: 69%;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #333;
+  font-family: Georgia, Arial, sans-serif;
+  color: #36231c;
   font-size: 1em;
   font-weight: 400;
   text-align: center;
@@ -356,7 +356,7 @@ a.navbar-logo:hover {
 }
 
 .plain-link {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, Arial, sans-serif;
   font-size: 0.9em;
   margin: 0 auto;
   padding: 5px 10px 5px 10px;
@@ -764,8 +764,8 @@ header {
 }
 
 .features-p {
-  font-family: Helvetica, Arial, sans-serif;
-  color: #333;
+  font-family: Georgia, Arial, sans-serif;
+  color: #36231c;
   font-size: 0.85em;
   text-align: left;
   transition: all 0.5s;
@@ -1092,7 +1092,7 @@ h3 {
   line-height: 19px;
   margin: 4px 0;
   transition: color 0.2s;
-  font: normal 16px/1.5 Helvetica, Arial, sans-serif;
+  font: normal 16px/1.5 Georgia, Arial, sans-serif;
   color: #ad835a;
 }
 
@@ -1374,7 +1374,7 @@ ul#model-feats {
   height: 32px;
   line-height: 32px;
   text-transform: uppercase;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, Arial, sans-serif;
   text-align: center;
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1024px) and (min-device-height : 1366px) and (max-device-height : 1366px) and (min-width: 1024px) and (max-width: 1024px) {
@@ -1591,7 +1591,7 @@ ul#model-feats {
 }
 .contact-form label {
   font-weight: 400;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, Arial, sans-serif;
   font-size: 70%;
   color: #752b1a;
 }
@@ -1643,7 +1643,7 @@ ul#model-feats {
 
 -------------------------------------------------------------------*/
 .footer {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, Arial, sans-serif;
   color: #ad835a !important;
   padding-top: 4rem;
   padding-bottom: 2rem;
