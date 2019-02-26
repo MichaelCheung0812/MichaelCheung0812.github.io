@@ -175,6 +175,10 @@ h2, h3 {
 
 -------------------------------------------------------------------*/
 .pattern {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(../img/wall.png);
+}
+
+.darkpattern {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(../img/dark_wall.png);
 }
 
@@ -840,7 +844,7 @@ h3 {
   .gallery #dragonic-carousel {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.65);
     margin: 0 auto 4rem auto;
-    width: 1200px;
+    width: 75%;
   }
 }
 .gallery #dragonic-carousel img {
@@ -1048,6 +1052,14 @@ h3 {
   left: -18px;
   top: 0;
   width: 18px;
+}
+
+.infobox {
+  background: url(../img/modal.png) -254px 0 repeat-y;
+}
+
+.modal-background {
+  background-image: url(../img/dark_wall.png);
 }
 
 /*------------------------------------------------------------------
@@ -1354,6 +1366,11 @@ ul#model-feats {
   width: 11px;
 }
 
+@media (min-width: 1200px) {
+  .modal-xlg {
+    width: 90%;
+  }
+}
 /*------------------------------------------------------------------
 
 3. Layout / #layout

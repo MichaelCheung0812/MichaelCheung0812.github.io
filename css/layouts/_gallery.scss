@@ -24,7 +24,7 @@
         @include mq-large-desktop {
             box-shadow: 0 0 50px rgba(0, 0, 0, 0.65);
             margin: 0 auto 4rem auto;
-            width: 1200px;
+            width: 75%;
         }
 
         img {
@@ -208,4 +208,13 @@
     left: -18px; 
     top: 0; 
     width: 18px; 
+}
+
+.infobox {
+    background:  $textureModalBorder01 -254px 0 repeat-y;
+}
+
+// Modal background
+.modal-background {
+    background-image: $textureModalBackground;
 }
