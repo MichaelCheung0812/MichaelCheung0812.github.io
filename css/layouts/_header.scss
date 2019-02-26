@@ -22,7 +22,6 @@ header {
 }
 
 .header2 {
-    header {
         @extend %full-screen-bg;
         background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0, 0, 0, 0.05)), $textureSecondaryBg;
         box-shadow: inset 0 -10px 70px rgba(0, 0, 0, 0.75);
@@ -36,7 +35,7 @@ header {
         }
         @include mq-ipad-pro-portrait {
             background-position: 25%;
-        }
+
     }
 }
 
