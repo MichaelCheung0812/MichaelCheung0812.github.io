@@ -1,0 +1,31 @@
+.races-p {
+  font-family: $tertiaryFont;
+  color: $secondaryColor;
+  font-size: 1em;
+  text-align: left;
+  transition: all 0.5s;
+  font-weight: 400;
+  line-height: 1.4rem;
+  @include mq-ipad-pro-portrait {
+    font-size: 0.8em;
+  }
+  @include mq-max-small-smartphone {
+    font-size: 0.9rem;
+  }
+}
+
+.races-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid;
+  opacity: 0.8;
+  transition: all 0.5s;
+  box-shadow: 0px 0px 25px 0px $blackerColor;
+  @include mq-ipad-pro-portrait {
+    opacity: 1;
+  }
+  @include mq-max-tablet {
+    opacity: 1;
+  }
+}

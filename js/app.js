@@ -65,14 +65,16 @@ $(document).ready(function() {
         var price = $('#modal-price-tag');
         var body = $('#modalBody');
         var dataModel = $(this).find('img');
-        var history = $('#history');
-        var information = $('#information');
-        var appearance = $('#appearance');
+        var racehistory = $('#racehistory');
+        var raceinformation = $('#raceinformation');
+        var racephysiology = $('#racephyisiology');
 
         label.text($(this).find('.item-name-caption').text());
         price.text($(this).find('.item-price-caption').text());
         img.attr('src', dataModel.attr('src'));
-        history.text(dataModel.data('history'));
+        racehistory.text(dataModel.data('racehistory'));
+        raceinformation.text(dataModel.data('raceinformation'));
+        racephysiology.text(dataModel.data('racephysiology'));
     });
 
     $('#shop-modal-hide').on('click', function(){

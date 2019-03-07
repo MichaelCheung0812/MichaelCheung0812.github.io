@@ -127,6 +127,20 @@ input:focus, textarea:focus, button:focus {
   }
 }
 
+.section-description-right {
+  width: 100%;
+  font-family: Georgia, Arial, sans-serif;
+  color: #36231c;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+@media (max-width: 768px) {
+  .section-description-right {
+    width: 85%;
+  }
+}
+
 /*------------------------------------------------------------------
 
 1. Base / #base
@@ -1814,6 +1828,46 @@ ul#model-feats {
 }
 .youtube-player .play:hover {
   background-position: 0px -50px;
+}
+
+.races-p {
+  font-family: "Palatino Light", Times, Times New Roman, Georgia, serif;
+  color: #ecd19a;
+  font-size: 1em;
+  text-align: left;
+  transition: all 0.5s;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1024px) and (min-device-height : 1366px) and (max-device-height : 1366px) and (min-width: 1024px) and (max-width: 1024px) {
+  .races-p {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 320px) {
+  .races-p {
+    font-size: 0.9rem;
+  }
+}
+
+.races-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid;
+  opacity: 0.8;
+  transition: all 0.5s;
+  box-shadow: 0px 0px 25px 0px #000000;
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1024px) and (min-device-height : 1366px) and (max-device-height : 1366px) and (min-width: 1024px) and (max-width: 1024px) {
+  .races-img {
+    opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  .races-img {
+    opacity: 1;
+  }
 }
 
 /*------------------------------------------------------------------
