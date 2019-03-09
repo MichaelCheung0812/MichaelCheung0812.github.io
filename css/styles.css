@@ -193,7 +193,7 @@ h2, h3 {
 }
 
 .darkpattern {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(../img/dark_wall.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(../img/dark_wall.jpg);
 }
 
 .pattern-dark {
@@ -1073,7 +1073,7 @@ h3 {
 }
 
 .modal-background {
-  background-image: url(../img/dark_wall.png);
+  background-image: url(../img/dark_wall.jpg);
 }
 
 /*------------------------------------------------------------------
