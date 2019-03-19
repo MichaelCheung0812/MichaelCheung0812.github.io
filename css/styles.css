@@ -93,7 +93,7 @@ h2 {
 h3 {
   font-size: 150%;
   font-weight: 600;
-  color: #ad835a;
+  color: #ecd19a;
   text-shadow: 0px 0px 4px #000000;
 }
 
@@ -798,9 +798,10 @@ header {
 }
 .features-item:hover h3 {
   text-shadow: 0px 0px 4px #383838;
+  color: #ecd19a;
 }
 .features-item:hover .features-p {
-  color: #9d9280;
+  
 }
 
 .features-p {
@@ -5580,3 +5581,8 @@ ul#model-feats {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+#racial-att-table {
+    margin-top: 60px;
+    
+}
