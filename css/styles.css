@@ -71,10 +71,6 @@ html, body {
   }
 }
 
-section {
-  padding: 3% 1%;
-}
-
 h1 {
   margin: 0;
 }
@@ -267,13 +263,13 @@ label:not(#foo) > input[type=checkbox]:checked + span {
   height: 18px;
 }
 
-.Divider {
+.divider {
   height: 55px;
   margin: -18px -15px;
   position: relative;
   z-index: 1;
 }
-.Divider:before {
+.divider:before {
   left: 0;
   margin-right: 82px;
   right: 50%;
@@ -283,7 +279,7 @@ label:not(#foo) > input[type=checkbox]:checked + span {
   position: absolute;
   top: 0;
 }
-.Divider:after {
+.divider:after {
   left: 50%;
   margin-left: 82px;
   right: 0;
@@ -294,7 +290,7 @@ label:not(#foo) > input[type=checkbox]:checked + span {
   top: 0;
 }
 
-.Divider-rule {
+.divider-rule {
   background: url(../img/divider-sprite.png) repeat-x 50% 100%;
   border: 0;
   height: 55px;
@@ -761,9 +757,6 @@ header {
     3.2. Features / #features
     
 -------------------------------------------------------------------*/
-.features {
-  padding-top: 20px;
-}
 
 .features-img {
   width: 100%;
@@ -836,14 +829,9 @@ h3 {
 -------------------------------------------------------------------*/
 .gallery {
   color: #ffffff;
-  padding: 3% 0 0 0;
   box-shadow: inset 0 10px 50px #000000;
-  overflow: hidden;
 }
 @media (min-width: 1200px) {
-  .gallery {
-    padding: 1.5% 0;
-  }
 }
 .gallery .section-description {
   margin: 1rem auto 3rem auto;
@@ -856,11 +844,6 @@ h3 {
   width: 100%;
 }
 @media (min-width: 1200px) {
-  .gallery #dragonic-carousel {
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.65);
-    margin: 0 auto 4rem auto;
-    width: 75%;
-  }
 }
 .gallery #dragonic-carousel img {
   width: 100%;
@@ -1084,7 +1067,6 @@ h3 {
 
 -------------------------------------------------------------------*/
 .store {
-  padding-top: 1.5%;
   margin-bottom: 1.25rem;
 }
 @media (min-width: 768px) {
@@ -1093,7 +1075,6 @@ h3 {
   }
 }
 .store .items-container {
-  padding: 0 10%;
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -5582,7 +5563,21 @@ ul#model-feats {
 
 /*# sourceMappingURL=styles.css.map */
 
-#racial-att-table {
-    margin-top: 60px;
-    
+/* Boog */
+.dragon-border{
+  border: 25px solid black;
+  border-image: url(../img/border-seamless.png) 18 round;
+}
+
+.char-create .features .row, .char-create .gallery .row{
+  padding-bottom: 100px;
+}
+
+.testimonials p{
+  display: inline-block;
+  text-align: center;
+  width: 100%
+}
+.testimonials, .store .row{
+  padding-bottom: 50px;
 }
